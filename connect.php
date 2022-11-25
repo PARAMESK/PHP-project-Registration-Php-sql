@@ -14,8 +14,8 @@ if($_SERVER['REQUEST_METHOD']== 'POST' && isset($_POST['submit'])){
      
      $query=mysqli_query($conn,$sql);
         if($query){
-            echo "Entry Successfull";
-            echo "Before install XAMPP and create database , table."
+            echo "Entry Successfull "; 
+            echo "Before install XAMPP goto sql phpmyadmin create database, table.";
          }
         else{
             echo "Error Occured";
